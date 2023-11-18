@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+
+#your-id{
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+
+#msg-container{
+    height: 70vh;
+    width: 80vw;
+    margin: 2rem auto;
+    margin-top: 1rem;
+    padding: 1rem 0.5rem;
+    border: 2px solid black;
+}
+
+#msg-container div{
+    padding: 0.2rem 0.5rem;
+}
+
+#msg-container div:nth-child(even){
+    background-color: rgb(128, 149, 149);
+    color: whitesmoke;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    /* max-width: 80vw; */
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#send-msg{
+    margin-top: 0px;
+}
+
+#form div{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    margin-top: 0;
+    width: 100%;
+}
+
+label{
+    font-weight: bold;
+}
+
+button{
+    width: 10%;
+    font-size: 1.1rem;
+}
+
+input{
+    font-size: 1.1rem;
+    width: 70%;
+}
+
